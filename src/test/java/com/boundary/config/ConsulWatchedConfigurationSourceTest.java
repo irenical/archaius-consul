@@ -191,7 +191,7 @@ public class ConsulWatchedConfigurationSourceTest extends RandomizedTest {
     }
 
     private String decodeVal(String value) {
-        return new String(base64().decode(value)).trim();
+        return new String(base64().decode(value));
     }
 
 
