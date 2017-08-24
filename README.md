@@ -1,3 +1,5 @@
+[![][maven img]][maven]
+
 # archaius-consul
 
 
@@ -46,3 +48,6 @@ Now you should be able to see watched callbacks in action by updating the corres
 ```bash
 curl -X PUT -d `date +%s` localhost:8500/v1/kv/my-app/config/example
 ```
+
+[maven]:http://search.maven.org/#search|gav|1|g:"org.irenical.consul"%20AND%20a:"archaius-consul"
+[maven img]:https://maven-badges.herokuapp.com/maven-central/org.irenical.consul/archaius-consul/badge.svg
