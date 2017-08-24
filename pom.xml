@@ -10,7 +10,7 @@
 
   <groupId>org.irenical.consul</groupId>
   <artifactId>archaius-consul</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3-SNAPSHOT</version>
 
   <packaging>jar</packaging>
 
@@ -21,7 +21,7 @@
     <connection>scm:git:git@github.com:irenical/archaius-consul.git</connection>
     <developerConnection>scm:git:git@github.com:irenical/archaius-consul.git</developerConnection>
     <url>git@github.com:irenical/archaius-consul.git</url>
-    <tag>archaius-consul-1.0.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <dependencies>
